@@ -70,8 +70,8 @@ export default function ShopRidesHub() {
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <a href="tel:+16136982222" className="hidden sm:flex items-center gap-2 text-[#3AAFE0] text-sm font-semibold hover:text-white transition-colors">
-                <Phone size={16} /> (613) 698-2222
+              <a href="tel:+13433075919" className="hidden sm:flex items-center gap-2 text-[#3AAFE0] text-sm font-semibold hover:text-white transition-colors">
+                <Phone size={16} /> 343-307-5919
               </a>
             </div>
           </div>
@@ -353,7 +353,7 @@ export default function ShopRidesHub() {
               <div>
                 <h4 className="sr-display font-bold text-sm text-gray-300 uppercase tracking-wide mb-4">Contact</h4>
                 <ul className="space-y-2.5 text-sm">
-                  <li><a href="tel:+16136982222" className="text-[#3AAFE0] font-semibold">📞 (613) 698-2222</a></li>
+                  <li><a href="tel:+13433075919" className="text-[#3AAFE0] font-semibold">📞 (343) 307-5919</a></li>
                   <li><a href="mailto:info@shoprides.ca" className="text-gray-400 hover:text-[#3AAFE0] transition-colors">✉️ info@shoprides.ca</a></li>
                   <li className="pt-2"><a href="#" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Privacy Policy</a></li>
                   <li><a href="#" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Terms of Use</a></li>
