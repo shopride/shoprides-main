@@ -355,8 +355,8 @@ export default function ShopRidesHub() {
                 <ul className="space-y-2.5 text-sm">
                   <li><a href="tel:+13433075919" className="text-[#3AAFE0] font-semibold">📞 (343) 307-5919</a></li>
                   <li><a href="mailto:info@shoprides.ca" className="text-gray-400 hover:text-[#3AAFE0] transition-colors">✉️ info@shoprides.ca</a></li>
-                  <li className="pt-2"><a href="#" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Privacy Policy</a></li>
-                  <li><a href="#" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Terms of Use</a></li>
+                  <li className="pt-2"><a href="https://www.shoprides.ca/privacy-policy" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Privacy Policy</a></li>
+                  <li><a href="https://www.shoprides.ca/terms-of-use" className="text-gray-500 hover:text-gray-300 transition-colors text-xs">Terms of Use</a></li>
                 </ul>
               </div>
             </div>
