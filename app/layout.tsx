@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { preload } from "react-dom";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -41,6 +42,10 @@ const ORG_SCHEMA = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Start downloading the brand fonts right away (used above the fold).
+  preload("/fonts/oswald-latin.woff2", { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
+  preload("/fonts/inter-latin.woff2", { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
+
   return (
     <html lang="en-CA">
       <body>

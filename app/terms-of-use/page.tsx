@@ -21,7 +21,6 @@ export default function TermsOfUsePage() {
   return (
     <main className="min-h-screen bg-[#0D1B2A] antialiased">
       <style dangerouslySetInnerHTML={{ __html: `
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
         .sr-display { font-family: 'Oswald', 'Arial Narrow', sans-serif; letter-spacing: -0.01em; }
         .sr-body { font-family: 'Inter', system-ui, sans-serif; }
       `}} />
