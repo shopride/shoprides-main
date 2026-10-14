@@ -1,7 +1,7 @@
 // app/page.tsx — ShopRides.ca Main Hub
 "use client";
 
-import { useState, useEffect } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   CarFront, Bike, HardHat, ArrowRight,
@@ -10,9 +10,6 @@ import {
 } from "lucide-react";
 
 export default function ShopRidesHub() {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-  if (!mounted) return null;
 
   const verticals = [
     {
@@ -144,10 +141,12 @@ export default function ShopRidesHub() {
                 >
                   {/* Image */}
                   <div className="relative h-48 overflow-hidden">
-                    <img
+                    <Image
                       src={v.image}
-                      alt={v.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      alt={`${v.title} in Canada`}
+                      fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#111E30] via-[#111E30]/40 to-transparent" />
                     <div className="absolute top-4 left-4 w-12 h-12 rounded-xl flex items-center justify-center" style={{ backgroundColor: `${v.color}20` }}>
